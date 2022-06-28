@@ -1,9 +1,10 @@
-require("@nomiclabs/hardhat-waffle")
-require("dotenv").config()
-require("@nomiclabs/hardhat-etherscan")
-require("./tasks/block-number")
-require("hardhat-gas-reporter")
-require("solidity-coverage")
+import "@nomiclabs/hardhat-waffle"
+import "dotenv/config"
+import "@nomiclabs/hardhat-etherscan"
+import "./tasks/block-number"
+import "hardhat-gas-reporter"
+import "solidity-coverage"
+import "@nomiclabs/hardhat-ethers"
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
