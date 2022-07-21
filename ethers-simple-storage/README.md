@@ -1,3 +1,3 @@
 # Ethers Simple Storage FCC
 
-Hi!
+Simple solidity contract that stores a person's name and their favorite number
